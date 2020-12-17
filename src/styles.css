@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+.App {
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+}
+body {
+  background-image: linear-gradient(#58d68d, #186a3b);
+  padding: 1rem 3rem;
+  font-family: "Ubuntu", sans-serif;
+}
+input {
+  padding: 2rem;
+  width: 80%;
+  height: 0.5cm;
+  font-size: 2rem;
+}
+.inline {
+  display: inline;
+  padding: 1rem 1.5rem;
+}
+.non-bullet {
+  list-style: none;
+}
+.footer-items {
+  text-align: center;
+  font-size: large;
+}
+
+.footer {
+  /* background-color: #58d68d; */
+  padding: 1rem;
+  text-align: center;
+  color: white;
+  border-top-right-radius: 1rem;
+  font-weight: bold;
+  width: 100%;
+  position: right;
+}
+
+.footer .link {
+  color: white;
+}
+.footer .link:hover {
+  color: black;
+}
+
+.footer .footer-header {
+  font-weight: bold;
+  font-size: 0.75cm;
+}
+
+.footer ul {
+  padding-inline-start: 0px;
+}
